@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Zen+Antique&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Oleo+Script&family=Zen+Antique&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/0d6bf92642.js" crossorigin="anonymous"></script>
+    <title>Final Project – Web Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="sidebar">
+          <div class="logo">
+            <img src="images/name.png" alt="logo">
+          </div>
+            <ul>
+                <li><a href="#aboutme">Profile</a></li>
+                <li><a href="#myphoto">Photo</a></li>
+                <li><a href="#illustration">Illustration</a></li>
+                <li><a href="#contact">Contact</a></li>                
+            </ul> 
+            <div class="socialmedia">
+              <a href="https://facebook.com/kuan.pan.55/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/Kuan55555"><i class="fab fa-twitter"></i></a>
+              <a href="https://instagram.com/kuan.55555.pan/"><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/kuan-Wu"><i class="fab fa-github-square"></i></a>
+           </div>
+        </div>
+      </div>
+    </header>
+    <main>
+        <section class="aboutme">
+          <div id="aboutme" class="imageme">
+            <img src="images/memobile.jpg" alt="picture of me">
+            <img src="images/me.jpg" alt="picture of me">
+          </div>
+          <div class=intro>
+            <h1>About Me</h1>
+            <p><span>Hi, I'm Kuan Pan.</span>
+              I come from Kaohsiung City, Taiwan.<br>
+              Currently study at Interactive Media Design in Algonquin college. I look forward to become a web designer in the future.</p>
+          </div>
+        </section> <!-- page 1 end -->
+        <h2 id="myphoto">My Photo</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>            
+        <section>
+        <div class="myphoto">       
+          <div class="container">            
+              <div><img src="images/banff.JPG" alt="icefield truck on icefield"></div>
+              <div><img src="images/quebec.JPG" alt="castle in quebec"></div>
+              <div><img src="images/algonquinpark.JPG" alt="maple leaves in algonquin park"></div>
+              <div><img src="images/gatineaupark.JPG" alt="maple in gatineau park"></div>
+              <div><img src="images/church.JPG" alt="church"></div>
+              <div><img src="images/sunflower.JPG" alt="sunflower"></div>
+          </div>
+        </div>   
+        </section> <!-- page 2 end -->
+        <section>
+          <h2 id="illustration">My Illustration</h2>
+          <p><span>Lorem ipsum dolor sit</span>amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>        
+            <div class="illustration">
+              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="illustrations/T.rex.png" class="d-block w-100" alt="T.rex">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="illustrations/rooster.png" class="d-block w-100" alt="rooster">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="illustrations/polar-bear-logo.jpg" class="d-block w-100" alt="polar bear logo">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            </div>
+        </section> <!-- page 3 end --> 
+        <section>
+          <h2 id="contact">Contact</h2>
+          <p>Email: pan00053@algonquin.com<br>Phone: 613-612-0719</p>
+            <div class="container">
+                <div class="contact">
+                  <form>
+                    <label class="input-label" for="name">Name</label>
+                    <input type="text" id="name" placeholder="First Name">
+                    <input type="text" id="name" placeholder="Last Name">
+                    <label  class="input-label" for="email">Email</label>
+                    <input type="text" id="email" placeholder="Email">
+                    <label  class="input-label" for="message">Message</label>
+                    <textarea id="message" placeholder="message" rows="4" cols="50">Message</textarea>
+                    <button>Submit</button>
+                  </form>
+              </div>
+            </div>  <!-- container end -->
+        </section> <!-- page 4 end -->
+      </main> <!-- main end -->
+      <footer>
+        <div class="container">
+          <div class="link">
+            <nav>
+              <ul>
+                <li>
+                  <a href="#">Profile</a>
+                  <a href="#">Photo</a>
+                  <a href="#">Illustration</a>
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="form">
+            <form>
+              <input type="text" class="form-control" placeholder="Search" aria-label="search">
+              <button class="btn btn-outline-light btn-sm" type="button"><i class="fas fa-search"></i></button>
+              <p>&copy; Copyright Kuanwupan</p>
+            </form>
+            <div class="icon">
+              <a href="https://facebook.com/kuan.pan.55/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/Kuan55555"><i class="fab fa-twitter"></i></a>
+              <a href="https://instagram.com/kuan.55555.pan/"><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/kuan-Wu"><i class="fab fa-github-square"></i></a>
+            </div>
+          </div>
+        </div> <!-- container end -->
+      </footer> <!-- footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
